@@ -1,53 +1,30 @@
 ---
 page_type: sample
 languages:
-- csharp
+- sql
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+- sql-server
+description: "An example that illustrates how to use Docker and Docker Compose to start multiple SQL Server on Linux containers."
 ---
 
 # Official Microsoft Sample
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
-
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
-
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
-
-Give a short description for your sample here. What does it do and why is it important?
+This repository contains sample code that students can use to deploy SQL Server and Linux containers on Docker Hosts by using Docker Compose. This sample code is use in the [Run SQL Server 2019 on Linux containers](https://docs.microsoft.com/learn/modules/run-sql-server-2017-linux-containers/) learn module.
 
 ## Contents
 
 Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
-
-## Prerequisites
-
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
-
-## Setup
-
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
-
-## Running the sample
-
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+| File/folder        | Description                                |
+|--------------------|--------------------------------------------|
+| `mssql-aspcore-example-app` | Sample code for an ASP.NET web application. |
+| `mssql-aspcore-example-db` | Sample code that deploys a SQL Server database. |
+| `.gitignore`       | Define what to ignore at commit time.      |
+| `CODE_OF_CONDUCT.md` | Conventions for the Microsoft Open Source Code of Conduct |
+| `LICENSE`          | The license for the sample.                |
+| `README.md`        | This README file.                          |
+| `SECURITY.md`      | How to report security vulnerabilities     |
+| `docker-compose.yml` | Script to configure Docker Compose |
 
 ## Contributing
 
